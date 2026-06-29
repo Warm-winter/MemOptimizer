@@ -36,9 +36,9 @@
             <Border Grid.Row="0" CornerRadius="16,16,0,0"
                     MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
                 <Grid>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="16,0,0,0">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0,0,0">
                         <!-- 项目 Logo -->
-                        <Image Source="Assets/logo.png" Width="22" Height="22" Margin="0,0,10,0" Stretch="UniformToFill"/>
+                        <Image Source="/Assets/logo.png" Width="22" Height="22" Margin="0,0,8,0" Stretch="Uniform"/>
                         <TextBlock Text="MemOptimizer" Foreground="{StaticResource TextPrimaryBrush}"
                                    FontSize="14" FontWeight="Medium" VerticalAlignment="Center"/>
                     </StackPanel>
@@ -200,7 +200,7 @@
                     </Border.Effect>
                     <StackPanel Margin="24,20">
                         <!-- Logo -->
-                        <Image Source="Assets/logo.png" Width="72" Height="72" Stretch="UniformToFill"
+                        <Image Source="/Assets/logo.png" Width="72" Height="72" Stretch="Uniform"
                                HorizontalAlignment="Center" Margin="0,0,0,12"/>
 
                         <!-- 项目名 -->

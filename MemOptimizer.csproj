@@ -27,9 +27,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Assets\logo.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Assets\logo.png" />
   </ItemGroup>
 
 </Project>
